@@ -4,6 +4,16 @@
 
 const add = require('add-leading-zeros')
 
+/**
+ * Prettify binary string by grouping bits and adding leading
+ * zeros if necessary.
+ *
+ * @param {String} str
+ * @param {Number?} group
+ * @return {String}
+ * @api public
+ */
+
 module.exports = (str, group = 4) => {
   str = add(str, group)
   var output = ''
