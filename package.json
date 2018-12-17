@@ -25,5 +25,8 @@
   "homepage": "https://github.com/bredele/bits-prettifier#readme",
   "devDependencies": {
     "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "add-leading-zeros": "^1.0.0"
   }
 }
