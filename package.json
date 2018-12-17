@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/bredele/bits-prettifier/issues"
   },
-  "homepage": "https://github.com/bredele/bits-prettifier#readme"
+  "homepage": "https://github.com/bredele/bits-prettifier#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
 }
